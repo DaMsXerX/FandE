@@ -1,30 +1,3 @@
-// import 'package:get/get.dart';
-// import 'package:cloud_firestore/cloud_firestore.dart';
-// import 'package:firebase_auth/firebase_auth.dart';
-//
-// class ProfileController extends GetxController {
-//   final RxList<DocumentSnapshot> userPosts = <DocumentSnapshot>[].obs;
-//
-//   @override
-//   void onInit() {
-//     super.onInit();
-//     fetchUserPosts();
-//   }
-//
-//   void fetchUserPosts() {
-//     final userId = FirebaseAuth.instance.currentUser!.uid;
-//
-//     FirebaseFirestore.instance
-//         .collection('posts')
-//         .where('userId', isEqualTo: userId)
-//         // .orderBy('timestamp', descending: true)
-//         .snapshots()
-//         .listen((snapshot) {
-//       userPosts.value = snapshot.docs;
-//     });
-//   }
-// }
-
 import 'dart:async';
 
 import 'package:get/get.dart';
