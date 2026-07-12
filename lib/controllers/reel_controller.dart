@@ -26,4 +26,4 @@ class ReelController extends GetxController {
 
 
 }
-
+// speed optimizations soon
