@@ -77,3 +77,5 @@ class _UserVideoPlayerScreenState extends State<UserVideoPlayerScreen> {
     );
   }
 }
+
+// new optimizations soon
