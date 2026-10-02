@@ -77,3 +77,4 @@ class ProfileController extends GetxController {
     super.onClose();
   }
 }
+// code will be updated soon
