@@ -685,4 +685,3 @@ class PhoneAuthScreenState extends State<PhoneAuthScreen>
     );
   }
 }
-// code will be optimized soon
