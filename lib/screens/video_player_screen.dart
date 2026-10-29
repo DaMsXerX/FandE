@@ -154,4 +154,3 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
     );
   }
 }
-// logic will be optimized
